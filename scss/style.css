@@ -305,6 +305,9 @@ html, body {
   margin: 5px;
   border-radius: 50px;
   text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
   background: rgba(255, 255, 255, 0.3);
 }
 @media (max-width: 480px) {
@@ -318,6 +321,9 @@ html, body {
   left: 10%;
   font-size: 20px;
   display: inline;
+}
+.wrap .card .card-down .end-time p {
+  font-size: 105px;
 }
 .wrap .card .card-down .end-time p.stop {
   color: #ff6768;
